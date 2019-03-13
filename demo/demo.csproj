@@ -202,6 +202,7 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\ApiControllers\AccountsController.cs" />
+    <Compile Include="Controllers\ApiControllers\CoursesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Global.asax.cs">
@@ -211,8 +212,14 @@
     <Compile Include="Migrations\201903122259115_InitialModel.Designer.cs">
       <DependentUpon>201903122259115_InitialModel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201903130416596_AddedCoursesMigrations.cs" />
+    <Compile Include="Migrations\201903130416596_AddedCoursesMigrations.Designer.cs">
+      <DependentUpon>201903130416596_AddedCoursesMigrations.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\Courses.cs" />
+    <Compile Include="Models\Data Transfer Objects\CourseDto.cs" />
     <Compile Include="Models\Data Transfer Objects\UserDto.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
@@ -295,6 +302,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201903122259115_InitialModel.resx">
       <DependentUpon>201903122259115_InitialModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201903130416596_AddedCoursesMigrations.resx">
+      <DependentUpon>201903130416596_AddedCoursesMigrations.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

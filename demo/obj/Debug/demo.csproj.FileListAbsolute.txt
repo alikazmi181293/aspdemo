@@ -123,3 +123,4 @@ C:\Users\syeda\source\repos\demo\demo\obj\Debug\demo.dll
 C:\Users\syeda\source\repos\demo\demo\obj\Debug\demo.pdb
 C:\Users\syeda\source\repos\demo\demo\obj\Debug\demo.Migrations.InitialModel.resources
 C:\Users\syeda\source\repos\demo\demo\obj\Debug\demo.csproj.GenerateResource.cache
+C:\Users\syeda\source\repos\demo\demo\obj\Debug\demo.Migrations.AddedCoursesMigrations.resources

@@ -14,6 +14,8 @@ namespace demo.App_Start
         {
             CreateMap<ApplicationUser, UserDto>();
             CreateMap<UserDto, ApplicationUser>();
+            CreateMap<Courses, CourseDto>();
+            CreateMap<CourseDto, Courses>();
         }
     }
 }
