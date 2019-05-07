@@ -168,6 +168,7 @@ namespace demo.Controllers.ApiControllers
             {
                 db.Dispose();
             }
+            //Here we are disposing.
             base.Dispose(disposing);
         }
 
